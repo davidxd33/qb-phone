@@ -19,6 +19,11 @@ CREATE TABLE `phone_chatrooms` (
     PRIMARY KEY (`id`)
 );
 
+INSERT INTO `phone_chatrooms` (`room_code`, `room_name`, `room_owner_id`, `room_owner_name`, `is_pinned`) VALUES
+	('411', '411', 'official', 'Government', 1),
+	('lounge', 'The Lounge', 'official', 'Government', 1),
+	('events', 'Events', 'official', 'Government', 1);
+
 CREATE TABLE `phone_chatroom_messages` (
     `id` INT unsigned NOT NULL AUTO_INCREMENT,
     `room_id` INT unsigned,
