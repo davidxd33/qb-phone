@@ -37,8 +37,8 @@ CREATE TABLE `phone_chatroom_messages` (
 ```
 
 Requires
- - My edit of qb-input to allow for some front end magic.
- - cd_terminalhacking (optional can be switched out using below instructions)
+ - My edit of [qb-input](https://github.com/davidxd33/qb-input) to allow for some front end magic.
+ - [cd_terminalhacker](https://forum.cfx.re/t/paid-codesign-terminal-hacker-minigame/2071255) (optional can be switched out using below instructions)
 
 Features
  - Buying public/private chatrooms.
