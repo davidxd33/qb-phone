@@ -46,8 +46,8 @@ Features
  - Search function in rooms.
  - Option to join chatroom or view. If you join you get push notifications.
  - Create pin codes for your room, turn it private/public.
- - Create "private" rooms via a hacked phone.
- - Private rooms can only be seen by those with a hacked phone.
+ - Create "hacked" rooms via a hacked phone.
+ - Hacked rooms can only be seen by those with a hacked phone.
  - Attach pictures to rooms by posting the link (auto embed)
 
 The app is configured to work around legal and illegal selling of chatrooms (default location inside [Patochoe's Cyberbar MLO](https://www.gta5-mods.com/maps/mlo-cyber-bar-fivem-sp))
