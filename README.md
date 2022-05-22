@@ -36,3 +36,5 @@ The app is configured to work around legal and illegal selling of chatrooms (def
 For legal selling, you approach the seller and purchase the chatroom (configued with qb-target and qb-input). For illegal selling you need to hack your phone with a cracked usb. *This script does not provide a way to get the item, you must implement this yourself (through house robbery loot tables or other means).*
 
 The phone hack is by default using the paid cd_terminalhack resource. This can easily be swapped for an alternative in `qb-phone:client:TriggerPhoneHack` in client/room_creation.lua
+
+Any bugs feel free to PR, I am not maintaining this resource just releasing my work to the public. It's been extensively tested already on a live server.
