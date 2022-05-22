@@ -36,6 +36,20 @@ CREATE TABLE `phone_chatroom_messages` (
 );
 ```
 
+Requires
+ - My edit of qb-input to allow for some front end magic.
+ - cd_terminalhacking (optional can be switched out using below instructions)
+
+Features
+ - Buying public/private chatrooms.
+ - Chatroom moderation (kick people, delete messages, pin messages)
+ - Search function in rooms.
+ - Option to join chatroom or view. If you join you get push notifications.
+ - Create pin codes for your room, turn it private/public.
+ - Create "private" rooms via a hacked phone.
+ - Private rooms can only be seen by those with a hacked phone.
+ - Attach pictures to rooms by posting the link (auto embed)
+
 The app is configured to work around legal and illegal selling of chatrooms (default location inside [Patochoe's Cyberbar MLO](https://www.gta5-mods.com/maps/mlo-cyber-bar-fivem-sp))
 
 For legal selling, you approach the seller and purchase the chatroom (configued with qb-target and qb-input). For illegal selling you need to hack your phone with a cracked usb. *This script does not provide a way to get the item, you must implement this yourself (through house robbery loot tables or other means).*
@@ -43,3 +57,11 @@ For legal selling, you approach the seller and purchase the chatroom (configued 
 The phone hack is by default using the paid cd_terminalhack resource. This can easily be swapped for an alternative in `qb-phone:client:TriggerPhoneHack` in client/room_creation.lua
 
 Any bugs feel free to PR, I am not maintaining this resource just releasing my work to the public. It's been extensively tested already on a live server.
+
+![](https://i.imgur.com/gPnxlzD.png) ![](https://i.imgur.com/NI4VVCR.png) ![](https://i.imgur.com/uLeajg6.jpeg) ![](https://i.imgur.com/vXB2py8.png) ![](https://i.imgur.com/ipXGMHJ.png) ![](https://i.imgur.com/TI6nb37.png) ![](https://i.imgur.com/HbQYjfQ.jpeg) 
+
+###Shows with a hacked phone in pocket
+![](https://i.imgur.com/Ex1M7bP.png)
+![](https://i.imgur.com/E57VpCv.png)
+![](https://i.imgur.com/tGKhQgj.png)
+ ~
