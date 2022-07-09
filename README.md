@@ -1,5 +1,5 @@
 # qb-phone (with discord app)
-Stock qb-phone with an added discord app.
+Stock qb-phone with an added discord app. I AM NOT MAINTINING THIS, IF SOMETHING DOESN'T WORK I WILL NOT BE OFFERING SUPPORT MAKE SURE YOU KNOW WHAT YOU ARE DOING
 
 Run the provided discordapp.sql file
 
